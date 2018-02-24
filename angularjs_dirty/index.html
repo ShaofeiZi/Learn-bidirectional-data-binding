@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>angularJs脏检查机制</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<br id="app">
+<button ng-click="increaseSprite">增加sprite</button>
+<span ng-bind='sprite'></span>
+<button ng-click="decreaseSprite">减少sprite</button>
+<span ng-bind='sprite'></span>
+<br>
+<button ng-click="increaseCola">增加cola</button>
+<span ng-bind='cola'></span>
+<button ng-click="decreaseCola">减少cola</button>
+<span ng-bind='cola'></span>
+<br>
+总计：
+<span ng-bind='sum'></span>
+</div>
+</body>
+</html>
